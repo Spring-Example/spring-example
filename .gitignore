@@ -32,3 +32,27 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+yarn-error.log
+app.db
+changelog.sh
+_modules
+*.pyc
+.DS_Store
+.coverage
+_build
+_static
+_images
+.eggs
+*.db
+*.bak
+*.sqllite
+.vscode
+.python-version
+
+# Node.js, webpack artifacts
+*.entry.js
+*.js.map
+node_modules
+npm-debug.log
+yarn.lock
