@@ -1,0 +1,4 @@
+CREATE USER 'spring_test'@'%' IDENTIFIED BY "spring_test";
+CREATE DATABASE spring_test DEFAULT CHARACTER SET utf8;
+GRANT ALL PRIVILEGES ON spring_test.* TO hapcloud@'%';
+FLUSH PRIVILEGES;
